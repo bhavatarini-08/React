@@ -1,35 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import React from 'react'
 
-function App() {
-  const [count, setCount] = useState(0)
+import NavBar from "./components/NavBar";
 
+const App = () => {
+  const Appname="Navigation"
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="h-screen w-screen flex flex-col justify-center items-center">
+      <NavBar appname={Appname}/>
+
+    </div>
+
+    <div className="h-screen w-screen bg-purple-600 flex justify-center items-center">
+      <div className="h-3/4 w-1/4 bg-white rounded-lg flex justify-center items-center">
+      <form action="" className="w-[80%] h-[80%] flex flex-col items-center justify-center gap-4">
+      <h1 className="text-purple-600 text-xl p-2 font-bold">Registration Form</h1>
+        <input type="text" name="" id="" placeholder="Name" className="p-3 outline-none active:outline-none focus:border-b-2 hover:border-purple-500 "/>
+        <input type="number" name="" id="" placeholder="Age" className="p-3 outline-none active:outline-none focus:border-b-2 hover:border-purple-500 " />
+        <input type="email" placeholder="Email" className="p-3 outline-none active:outline-none focus:border-b-2 hover:border-purple-500 " />
+        <input type="password" name="" id="" placeholder="Password" className="p-3 outline-none active:outline-none focus:border-b-2 hover:border-purple-500 "/>
+        <input type="submit" value="Register" className="bg-purple-600 text-white rounded-lg w-full p-3 hover:bg-green-500" />
+        
+        </form>
+        </div>
+        
+    </div>
+
+
+
+   </>
   )
 }
 
-export default App
+export default App;
