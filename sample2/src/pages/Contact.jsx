@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import NavBar from '../components/NavBar'
+import { FileText, Github, Linkedin } from 'lucide-react';
 
 
 const Contact = () => {
-  const [visible, setVisible] = useState(false);
+  // const [visible, setVisible] = useState(false);
 
   return (
     <>
@@ -41,6 +42,42 @@ const Contact = () => {
           Delete
         </button>
       </div>
+         {/* <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <div className="bg-purple-500 text-white rounded-lg shadow-lg p-8 max-w-sm w-full">
+        <h2 className="text-2xl font-bold mb-4 text-center">Bhavatarini A S</h2>
+        <p className="text-center mb-4">
+          <a href="mailto:bhavatariniselvan@gmail.com" className="underline">
+            bhavatariniselvan@gmail.com
+          </a>
+        </p>
+        <div className="flex justify-around items-center space-x-4 mt-4">
+          <a
+            href="https://www.linkedin.com/in/your-linkedin/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-300"
+          >
+            <Linkedin size={32} />
+          </a>
+          <a
+            href="https://github.com/your-github"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-300"
+          >
+            <Github size={32} />
+          </a>
+          <a
+            href="/path-to-your-resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-300"
+          >
+            <FileText size={32} />
+          </a>
+        </div>
+      </div>
+    </div> */}
     </>
   );
 };

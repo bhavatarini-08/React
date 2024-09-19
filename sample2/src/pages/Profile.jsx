@@ -5,7 +5,7 @@ const Profile = () => {
   return (
     <>
     <NavBar/>
-    <div className='bg-black h-screen p-4 flex flex-row justify-between items-center'>
+    <div className='bg-gray-100 h-screen p-4 flex flex-row justify-between items-center'>
         <div className='flex flex-col w-1/2 text-left p-6'>
           <div className='font-bold text-purple-500 text-5xl mb-4'>
             Hi, I am Bhavatarini A S
