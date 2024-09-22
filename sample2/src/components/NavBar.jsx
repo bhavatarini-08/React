@@ -73,7 +73,7 @@ const Navbar = () => {
     return (
         <> <div className='w-full h-[4rem] flex justify-center items-center bg-purple-500'>
                  <div className='w-[80%] h-full flex justify-center items-center flex-row'>
-                     <div className='w-1/2 flex h-full justify-start items-center font-bold text-white'>Bhavatarini A S</div>
+                     <div className='w-1/2 flex h-full justify-start items-center font-bold text-white text-xl'>Bhavatarini A S</div>
                    <div className='w-1/2 flex h-full justify-end items-center'>
                     <ul className='w-full list-none flex flex-row justify-center gap-6'>
                             {
@@ -102,7 +102,7 @@ const Navbar = () => {
                                         {/* <Cross onClick={() => setvisible(!visible)} /> */}
                                         <label className="relative inline-flex items-center cursor-pointer" onClick={() => setvisible(!visible)} >
                                             <input type="checkbox" value="" className="sr-only peer" />
-                                            <div className="peer ring-0 bg-rose-400  rounded-full outline-none duration-300 after:duration-500 w-8 h-8  shadow-md peer-checked:bg-emerald-500  peer-focus:outline-none  after:rounded-full after:absolute after:outline-none after:h-6 after:w-6 after:bg-white after:top-1 after:left-1 after:flex after:justify-center after:items-center  peer-hover:after:scale-75 peer-checked:after:content-['✔️'] after:-rotate-180 peer-checked:after:rotate-0">
+                                            <div className="peer ring-0 bg-purple-400  rounded-full outline-none duration-300 after:duration-500 w-8 h-8  shadow-md peer-checked:bg-emerald-500  peer-focus:outline-none  after:rounded-full after:absolute after:outline-none after:h-6 after:w-6 after:bg-white after:top-1 after:left-1 after:flex after:justify-center after:items-center  peer-hover:after:scale-75 peer-checked:after:content-['✔️'] after:-rotate-180 peer-checked:after:rotate-0">
                                             </div>
                                         </label>
                                     </div>

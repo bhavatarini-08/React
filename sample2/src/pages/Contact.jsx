@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
     <NavBar/>
-      {visible && (
+      {/* {visible && (
         <div className="h-screen w-screen absolute top-0 left-0 bg-black/20 flex justify-center items-center z-50">
           <div className="h-[40%] w-[30%] bg-red z-50 flex flex-col bg-white">
             
@@ -41,43 +41,45 @@ const Contact = () => {
         >
           Delete
         </button>
-      </div>
-         {/* <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="bg-purple-500 text-white rounded-lg shadow-lg p-8 max-w-sm w-full">
-        <h2 className="text-2xl font-bold mb-4 text-center">Bhavatarini A S</h2>
-        <p className="text-center mb-4">
-          <a href="mailto:bhavatariniselvan@gmail.com" className="underline">
-            bhavatariniselvan@gmail.com
-          </a>
-        </p>
-        <div className="flex justify-around items-center space-x-4 mt-4">
+      </div> */}
+      <div className="flex items-center justify-center min-h-screen bg-gray-100">
+      <div className="bg-gradient-to-b from-purple-500 to-purple-600 text-white rounded-xl shadow-xl p-10 max-w-sm w-full h-96 flex flex-col justify-between items-center">
+        <div className="text-center">
+          <h2 className="text-3xl font-bold mb-4">Bhavatarini A S</h2>
+          <p>
+            <a href="mailto:bhavatariniselvan@gmail.com" className="underline hover:text-gray-300 transition">
+              bhavatariniselvan@gmail.com
+            </a>
+          </p>
+        </div>
+        <div className="flex flex-col items-center space-y-8 mt-6">
           <a
-            href="https://www.linkedin.com/in/your-linkedin/"
+            href="https://www.linkedin.com/in/bhavatarini-selvan-62aaa1274/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-300"
+            className="hover:text-gray-300 transition duration-300 transform hover:scale-110"
           >
             <Linkedin size={32} />
           </a>
           <a
-            href="https://github.com/your-github"
+            href="https://github.com/bhavatarini-08"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-300"
+            className="hover:text-gray-300 transition duration-300 transform hover:scale-110"
           >
             <Github size={32} />
           </a>
           <a
-            href="/path-to-your-resume.pdf"
+            href="https://bhavatarini-08.github.io/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-300"
+            className="hover:text-gray-300 transition duration-300 transform hover:scale-110 text-3xl"
           >
             <FileText size={32} />
           </a>
         </div>
       </div>
-    </div> */}
+    </div>
     </>
   );
 };
