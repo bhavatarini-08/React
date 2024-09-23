@@ -92,7 +92,7 @@ const Navbar = () => {
             {
                 visible && (
                     <>
-                        <div className="h-screen w-screen absolute top-0 left-0 bg-black/20 flex justify-center items-center z-50">
+                        <div className="h-screen w-screen absolute top-0 left-0 bg-black/20 flex justify-center items-center z-50 rounded-lg">
                             <div className=" h-[60%] w-[30%] bg-red z-50 flex flex-col  bg-white ">
                                 <div className="w-full h-[15%] flex flex-row justify-start px-10 items-center border-2 text-purple-500 bg-white text-xl font-bold shadow-sm">
                                     <div className="w-1/2">
@@ -107,7 +107,7 @@ const Navbar = () => {
                                         </label>
                                     </div>
                                 </div>
-                                <div className="w-full h-[85%] flex flex-row justify-center items-center">
+                                <div className="w-full h-[85%] flex flex-row justify-center items-center rounded-md">
                                     <form className="w-[80%] h-[80%] flex flex-col justify-center items-center gap-4" onSubmit={handleLogin}>
                                         <input type="email" ref={emailref} name="" id="email" placeholder="Email" className="p-3 bg-[#f8f8f8] w-full font-bold outline-none active:outline-none focus:border-b-2 hover:border-b-2 hover:border-purple-200  focus:border-purple-600" required />
                                         <input type="password" ref={passwordref} name="" id="password" placeholder="Password" className="p-3 bg-[#f8f8f8] w-full font-bold outline-none active:outline-none focus:border-b-2  hover:border-b-2 hover:border-purple-200 focus:border-purple-600 mb-3" required />
