@@ -7,10 +7,10 @@ const Profile = () => {
     <NavBar/>
     <div className='bg-gray-100 h-screen p-4 flex flex-row justify-between items-center'>
         <div className='flex flex-col w-[55%] text-left p-6'>
-          <div className='font-bold text-purple-500 text-6xl mb-4'>
+          <div className='font-bold text-pink-600 text-6xl mb-4'>
             Hi, I am Bhavatarini A S
           </div>
-          <div className='text-purple-500 font-semibold text-lg'>
+          <div className='text-pink-600 font-semibold text-lg'>
             A passionate and detail-oriented individual with a keen interest in SQL, front-end development, and data analytical tools such as Power BI and Excel, I am eager to leverage my skills to drive data-driven decision-making and create user-friendly, dynamic interfaces. My goal is to blend analytical insights with intuitive design to deliver impactful solutions, streamline workflows, and enhance business intelligence for organizations.
           </div>
         </div>

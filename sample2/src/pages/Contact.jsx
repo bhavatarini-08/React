@@ -43,7 +43,7 @@ const Contact = () => {
         </button>
       </div> */}
       <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="bg-gradient-to-b from-purple-500 to-purple-600 text-white rounded-xl shadow-xl p-10 max-w-sm w-full h-96 flex flex-col justify-between items-center">
+      <div className="bg-pink-600 text-white rounded-xl shadow-xl p-10 max-w-sm w-full h-96 flex flex-col justify-between items-center">
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-4">Bhavatarini A S</h2>
           <p>

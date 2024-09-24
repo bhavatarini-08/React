@@ -33,14 +33,11 @@ const AddComponent = () => {
     const [visible, setvisible] = useState(false)
     return (
         <>
-            {/* <button onClick={() => setvisible(true)} className='flex justify-center items-center text-white bg-purple-500 px-2 py-1 rounded-sm'>
-                Add
-                <Plus className='h-6 w-6 ml-2' />
-            </button> */}
+           
           <div className="flex justify-end">
   <button 
     onClick={() => setvisible(true)} 
-    className='flex justify-center items-center text-white bg-purple-500 hover:bg-purple-600 px-4 py-2 rounded-md shadow-lg transform hover:scale-105 transition-transform duration-300 mt-4 float-right'
+    className='flex justify-center items-center text-white bg-pink-600 hover:bg-blue-600 px-4 py-2 rounded-md shadow-lg transform hover:scale-105 transition-transform duration-300 mt-4 float-right'
   >
     Add Your Projects
     <Plus className='h-6 w-6 ml-2' />
