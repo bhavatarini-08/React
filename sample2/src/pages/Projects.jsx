@@ -51,7 +51,6 @@ import AddComponent from "../components/AddComponent"
 const Projects = () => {
   const [projectdata, setProjectdata] = useState(null)
   const fetchprojects = async () => {
-    // const {}
     try {
       const { data } = await getProjects()
       setProjectdata(data)

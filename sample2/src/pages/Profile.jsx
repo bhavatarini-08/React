@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
 import Profilex from '../assets/img/profile.jpeg'
+import { Database, FileSpreadsheet } from 'lucide-react'
 const Profile = () => {
   return (
     <>
@@ -15,10 +16,13 @@ const Profile = () => {
           </div>
         </div>
         <div className='flex flex-col justify-center items-center w-1/2'>
-          <img src={Profilex} alt="profile" className="rounded-full h-56 w-56" />
+          <img src={Profilex} alt="profile" className="rounded-full h-52 w-56" />
         </div>
       </div>
-
+      {/* <div className='flex  justify-center items-center bg-gray-100'></div>
+      <Database className='text-blue-800'/>
+    <FileSpreadsheet className='text-green-700'></FileSpreadsheet>
+     */}
     </>
   )
   
@@ -51,3 +55,4 @@ export default Profile
 // };
 
 // export default Profile;
+
